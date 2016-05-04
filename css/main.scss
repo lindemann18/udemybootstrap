@@ -1,1 +1,57 @@
 $graduate: "Graduate,cursive";
+@mixin TextStyle(){
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.wrap{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* === General === */
+body{
+	padding-top: 50px;
+	background:url("../img/texture.png") top left repeat;
+}
+
+h1{
+	font-family: "graduate",cursive !important;
+}
+
+h2{
+	font-family: 'pacifico',cursive !important;
+}
+
+/* Title & Enroll */
+#title-enroll{
+	.jumbotron{
+		background: url("../img/mainBackground.png") 50% 0 no-repeat fixed;
+		color: #fff;
+		text-align: center;
+		p{
+			@include TextStyle();
+		}
+	}
+}
+
+
+#what-learn{
+	text-align: left;
+	h2 {text-align: center;}
+	.section{
+		text-align: center !important;
+	}
+}
+
+#course-target{
+	background-color:#BF3E11;
+	color:#fff;
+	.header-section{
+		text-align: center;
+		@include TextStyle();	
+		.forwho{
+			text-align: left;
+		}
+	}
+}
