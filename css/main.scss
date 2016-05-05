@@ -55,3 +55,65 @@ h2{
 		}
 	}
 }
+
+#course-features{
+	background-color:#fff;
+	text-align:center;
+	h4{
+		@include TextStyle();
+	}
+	.header-section{
+		margin-bottom: 20px;
+	}
+}
+
+#instructor{
+	.left-side{
+		text-align: center;
+	}
+	.badge{
+		&.social{
+			background-color: #95A5A6;
+			font-size: 20px;
+			height: 35px;
+			width: 35px;
+			text-align: center;
+			line-height:35px;
+			margin-top: 5px;
+			padding: 0;
+			border-radius: 35px; 
+			color:white;
+			&:hover{
+				&.twitter{
+					background-color:#55ACEE;
+				}
+				&.linkedin{
+					background-color:#4875B4;
+				}
+				&.blog{
+					background-color:#26c281;
+				}
+			}
+		}
+	}
+}
+
+#promotional-video{
+	background-color:#563D7C;
+	h2{
+		text-align: center;
+		color:#fff;
+	}
+}
+
+#footer{
+	padding:20px;
+	background-color:#22313f;
+	color:#fff;
+	a{
+		color:#f5ab35;
+		&:hover{
+			color:#F9690E;
+		}
+	}
+}

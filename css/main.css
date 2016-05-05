@@ -19,4 +19,21 @@ h2 { font-family: 'pacifico',cursive !important; }
 #course-target .header-section { text-align: center; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; }
 #course-target .header-section .forwho { text-align: left; }
 
+#course-features { background-color: #fff; text-align: center; }
+#course-features h4 { -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; }
+#course-features .header-section { margin-bottom: 20px; }
+
+#instructor .left-side { text-align: center; }
+#instructor .badge.social { background-color: #95A5A6; font-size: 20px; height: 35px; width: 35px; text-align: center; line-height: 35px; margin-top: 5px; padding: 0; border-radius: 35px; color: white; }
+#instructor .badge.social:hover.twitter { background-color: #55ACEE; }
+#instructor .badge.social:hover.linkedin { background-color: #4875B4; }
+#instructor .badge.social:hover.blog { background-color: #26c281; }
+
+#promotional-video { background-color: #563D7C; }
+#promotional-video h2 { text-align: center; color: #fff; }
+
+#footer { padding: 20px; background-color: #22313f; color: #fff; }
+#footer a { color: #f5ab35; }
+#footer a:hover { color: #F9690E; }
+
 /*# sourceMappingURL=main.css.map */
