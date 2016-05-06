@@ -1,0 +1,183 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Aprende bootstrap 3 y codeigniter</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" href="img/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href='https://fonts.googleapis.com/css?family=Graduate|Pacifico' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container">
+                <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                       <span class="sr-only">Toggle Navigation</span> 
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button> 
+                  <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="img/logo.png">
+                  </a>
+                </div><!-- navbar-header -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chuvakovich <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fa fa-graduation-cap"></i> &nbsp;Administrar curso</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> &nbsp;Editar Perfil</a></li>
+                            <li><a href="#"><i class="fa fa-sign-out"></i> &nbsp; Salir</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                </div><!-- .collapse -->
+              </div><!-- container -->
+            </nav>
+        </header>
+        <!-- End Header -->
+
+        <!-- Title & Enroll -->
+        <section id="title-enroll">
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <h1>Aprende Bootstrap 3 y CodeIgniter</h1>
+                    <p>Aprende paso a paso a crear tus propias <strong>Aplicaciones web</strong> y conviértete en un <strong>Ninja Developer</strong></p>
+                   
+                </div><!-- /.container-fluid -->
+            </div>
+        </section>
+        <!-- End Title & Enroll -->
+       
+       <!-- Admin course-->
+        <section class="wrap" id="admin-course">
+          <div class="container">
+            <h1>ADministración del Curso:</h1>
+            <p class="lead">aquí podrás añadir nuevas secciones y sus respectivas clases, así como editar o eliminar las ya existentes.</p>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <p><a href="#form-add-section" class="btn btn-info" data-toggle="tab" aria-controls="form-add-section" id="btnTabAdmin">Añadir Sección</a></p>
+
+                  <!-- Nav Tabs -->
+                  <ul class="nav nav-tabs">
+                    <li role="presentation" class="active" id="tabadmin">
+                      <a href="#form-list" role="tab" data-toggle="tab" aria-controls="form-list">Editar</a>
+                    </li>
+                    <li role="presentation" id="tabadmin2">
+                      <a href="#form-add-section" role="tab" data-toggle="tab" aria-controls="form-add-section">Sección</a>
+                    </li>
+                    <li role="presentation" id="tabadmin3">
+                      <a href="#form-add-lecture" role="tab" data-toggle="tab" aria-controls="form-add-lecture">Clase</a>
+                    </li>
+                  </ul>
+                  <br>
+                  <!-- tab content-->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="panel panel-primary tab-pane" id="form-list">
+                        <div class="panel-heading"> 
+                            <h3 class="panel-title">Sección 1: Introducción <span class="pull-right"><a href="">Añadir Clase</a> | <a href="">Editar</a> | <a href="">Eliminar</a></span> </h3> 
+                        </div> 
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                  <li class="list-group-item clearfix">
+                                    <i class="fa fa-play-circle"></i> &nbsp; Clase 1:
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur recusandae.
+                                    <small class="text-primary">(02:48)</small><span class="pull-right"><a href="">Editar</a>| <a href="">Eliminar</a></span>
+                                  </li>
+                                  <li class="list-group-item clearfix">
+                                      <i class="fa fa-play-circle"></i> &nbsp; Clase 1:
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur recusandae.
+                                    <small class="text-primary">(02:48)</small><span class="pull-right"><a href="">Editar</a>| <a href="">Eliminar</a></span>
+                                  </li>
+                                  <li class="list-group-item clearfix">
+                                      <i class="fa fa-play-circle"></i> &nbsp; Clase 1:
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur recusandae.
+                                    <small class="text-primary">(02:48)</small><span class="pull-right"><a href="">Editar</a>| <a href="">Eliminar</a></span>
+                                  </li>
+                                  <li class="list-group-item clearfix">
+                                      <i class="fa fa-play-circle"></i> &nbsp; Clase 1:
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur recusandae.
+                                    <small class="text-primary">(02:48)</small><span class="pull-right"><a href="">Editar</a>| <a href="">Eliminar</a></span>
+                                  </li>
+                                  <li class="list-group-item clearfix">
+                                      <i class="fa fa-play-circle"></i> &nbsp; Clase 1:
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur recusandae.
+                                    <small class="text-primary">(02:48)</small><span class="pull-right"><a href="">Editar</a>| <a href="">Eliminar</a></span>
+                                  </li>
+                                </ul>
+                            </div>
+                    </div><!-- #form-list -->
+                    <div role="tabpanel" class="tab-pane panel panel-default" id="form-add-section">
+                        <div class="panel-body">
+                          <h3>Añadir nueva sección</h3>
+                          <div class="form-group"><label for=""></label>
+                            <input type="text" class="form-control" id="section" placeholder="Agregar sección...">
+                          </div>
+                          <button class="btn btn-success">Agregar</button>
+                          o
+                          <a href="">Cancelar</a>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane panel panel-default" id="form-add-lecture">
+                        <div class="panel-body">
+                          <h3>Añadir nueva clase</h3>
+                          <form action="" class="form">
+                            <div class="form-group"><label for="">Título: </label><input type="text" class="form-control" id="input"></div>
+                            <div class="form-group"><label for="">Descripción: </label><textarea name="" id="" cols="30" rows="10" class="form-control"></textarea></div>
+                            <div class="form-group"><label for="">Url del vídeo</label><input type="text" class="form-control" id></div>
+                            <label for="">Duración de la lección</label>
+                            <input type="text" class="form-control" id="duration">
+                            <button class="btn btn-info">Añadir</button> o <a href="" class="btn btn-link">Finalizar</a>
+                          </form>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- END Admin course-->
+      
+      
+            
+         <!-- Footer -->   
+         <footer id="footer">
+             <div class="container-fluid">
+                 <p>BootIgniter - Aprende bootstrap 3 y bodeIgniter &copy; 2015 | Made with <i class="fa fa-heart"></i> by <a href="">Chuvakovich</a></p>
+             </div>
+         </footer> 
+         <!-- End Footer-->  
+    
+      
+    </body>
+</html>
+<script>
+  $("#btnTabAdmin").click(function(){
+    $("#tabadmin").removeClass();
+    $("#tabadmin2").removeClass().addClass("active");
+    $("#tabadmin3").removeClass();
+  });
+  </script>

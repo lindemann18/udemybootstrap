@@ -36,4 +36,10 @@ h2 { font-family: 'pacifico',cursive !important; }
 #footer a { color: #f5ab35; }
 #footer a:hover { color: #F9690E; }
 
+#discussions { background-color: #fff; }
+#discussions #btn-form, #discussions #btn-form-answer { text-align: right; margin-top: 5px; }
+
+#admin-course .container { background-color: #fff; min-height: 600px; }
+#admin-course .panel-heading a { color: white; }
+
 /*# sourceMappingURL=main.css.map */

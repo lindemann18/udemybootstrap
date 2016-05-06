@@ -117,3 +117,28 @@ h2{
 		}
 	}
 }
+
+#discussions{
+	background-color:#fff;
+	#btn-form{
+		text-align:right;
+		margin-top: 5px;
+	}
+
+	#btn-form-answer{
+		 @extend #btn-form;
+	}
+}
+
+#admin-course{
+	.container{
+		background-color:#fff;
+		min-height:600px;
+	}
+
+	.panel-heading{
+		a{
+			color:white;
+		}
+	}
+}
